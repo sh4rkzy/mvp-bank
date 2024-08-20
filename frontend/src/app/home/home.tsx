@@ -2,7 +2,6 @@ import { Fragment } from "react";
 import { Layout } from "@/components/layout";
 import { BalanceGeneral, type AccountProfile } from "./components/balance.component";
 import type { ProfileUser } from "@/components/header/header.component";
-import { Coins } from "lucide-react";
 
 export function HomePage() {
 
