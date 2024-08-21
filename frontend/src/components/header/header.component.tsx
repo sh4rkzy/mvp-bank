@@ -32,7 +32,7 @@ export function HeaderComponent() {
 
     return (
         <Fragment>
-            <div className="sticky top-0 z-40 flex h-16 shrink-0 items-center gap-x-4  px-4 sm:gap-x-6 sm:px-6 lg:px-8">
+            <div className="sticky top-0 z-40 flex h-16 shrink-0 items-center gap-x-4 px-4 sm:gap-x-6 sm:px-6 lg:px-8">
                 <div className="flex flex-1 gap-x-4 justify-end lg:gap-x-6">
                     <div className="flex items-center gap-x-4 lg:gap-x-6">
                         <ThemeSwitcher />
@@ -43,7 +43,7 @@ export function HeaderComponent() {
                                     <Button
                                         variant="outline"
                                         size="icon"
-                                        className="overflow-hidden rounded-full"
+                                        className="overflow-hidden rounded-md"
                                     >
                                         <Avatar>
                                             <AvatarImage
